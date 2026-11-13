@@ -1,0 +1,1150 @@
+{
+  "status": "CANDIDATES_GENERATED",
+  "note": "Kandidat belum diuji CPA, cakupan data, medan, atau restriksi airspace. Jangan disebut rute aman sebelum evaluasi tambahan.",
+  "original_route": {
+    "mission": {
+      "route_id": "ORIGINAL",
+      "start": [
+        -6.1754,
+        106.8272
+      ],
+      "destination": [
+        -6.16,
+        106.85
+      ],
+      "control_points": [
+        [
+          -6.1754,
+          106.8272
+        ],
+        [
+          -6.16,
+          106.85
+        ]
+      ],
+      "altitude_m": 150.0,
+      "speed_mps": 10.0,
+      "time_step_s": 30.0,
+      "distance_m": 3047.23,
+      "duration_s": 304.72,
+      "start_time_utc": "2026-10-29T06:07:37.201426+00:00"
+    },
+    "waypoints": [
+      {
+        "step": 0,
+        "time_utc": "2026-10-29T06:07:37.201426+00:00",
+        "elapsed_s": 0.0,
+        "latitude": -6.1754,
+        "longitude": 106.8272,
+        "altitude_m": 150.0
+      },
+      {
+        "step": 1,
+        "time_utc": "2026-10-29T06:08:07.201426+00:00",
+        "elapsed_s": 30.0,
+        "latitude": -6.173884,
+        "longitude": 106.829445,
+        "altitude_m": 150.0
+      },
+      {
+        "step": 2,
+        "time_utc": "2026-10-29T06:08:37.201426+00:00",
+        "elapsed_s": 60.0,
+        "latitude": -6.172368,
+        "longitude": 106.831689,
+        "altitude_m": 150.0
+      },
+      {
+        "step": 3,
+        "time_utc": "2026-10-29T06:09:07.201426+00:00",
+        "elapsed_s": 90.0,
+        "latitude": -6.170852,
+        "longitude": 106.833934,
+        "altitude_m": 150.0
+      },
+      {
+        "step": 4,
+        "time_utc": "2026-10-29T06:09:37.201426+00:00",
+        "elapsed_s": 120.0,
+        "latitude": -6.169336,
+        "longitude": 106.836179,
+        "altitude_m": 150.0
+      },
+      {
+        "step": 5,
+        "time_utc": "2026-10-29T06:10:07.201426+00:00",
+        "elapsed_s": 150.0,
+        "latitude": -6.167819,
+        "longitude": 106.838423,
+        "altitude_m": 150.0
+      },
+      {
+        "step": 6,
+        "time_utc": "2026-10-29T06:10:37.201426+00:00",
+        "elapsed_s": 180.0,
+        "latitude": -6.166303,
+        "longitude": 106.840668,
+        "altitude_m": 150.0
+      },
+      {
+        "step": 7,
+        "time_utc": "2026-10-29T06:11:07.201426+00:00",
+        "elapsed_s": 210.0,
+        "latitude": -6.164787,
+        "longitude": 106.842913,
+        "altitude_m": 150.0
+      },
+      {
+        "step": 8,
+        "time_utc": "2026-10-29T06:11:37.201426+00:00",
+        "elapsed_s": 240.0,
+        "latitude": -6.163271,
+        "longitude": 106.845157,
+        "altitude_m": 150.0
+      },
+      {
+        "step": 9,
+        "time_utc": "2026-10-29T06:12:07.201426+00:00",
+        "elapsed_s": 270.0,
+        "latitude": -6.161755,
+        "longitude": 106.847402,
+        "altitude_m": 150.0
+      },
+      {
+        "step": 10,
+        "time_utc": "2026-10-29T06:12:37.201426+00:00",
+        "elapsed_s": 300.0,
+        "latitude": -6.160239,
+        "longitude": 106.849647,
+        "altitude_m": 150.0
+      },
+      {
+        "step": 11,
+        "time_utc": "2026-10-29T06:12:41.924103+00:00",
+        "elapsed_s": 304.72,
+        "latitude": -6.16,
+        "longitude": 106.85,
+        "altitude_m": 150.0
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "route_id": "LEFT_500_M",
+      "side": "left",
+      "offset_m": 500.0,
+      "bend_point": [
+        -6.163981,
+        106.836059
+      ],
+      "distance_m": 3207.12,
+      "duration_s": 320.71,
+      "extra_distance_m": 159.89,
+      "extra_duration_s": 15.99,
+      "evaluation_status": "NOT_EVALUATED",
+      "flight_plan": {
+        "mission": {
+          "route_id": "LEFT_500_M",
+          "start": [
+            -6.1754,
+            106.8272
+          ],
+          "destination": [
+            -6.16,
+            106.85
+          ],
+          "control_points": [
+            [
+              -6.1754,
+              106.8272
+            ],
+            [
+              -6.1639806092361775,
+              106.83605866407288
+            ],
+            [
+              -6.16,
+              106.85
+            ]
+          ],
+          "altitude_m": 150.0,
+          "speed_mps": 10.0,
+          "time_step_s": 30.0,
+          "distance_m": 3207.12,
+          "duration_s": 320.71,
+          "start_time_utc": "2026-10-29T06:07:37.201426+00:00"
+        },
+        "waypoints": [
+          {
+            "step": 0,
+            "time_utc": "2026-10-29T06:07:37.201426+00:00",
+            "elapsed_s": 0.0,
+            "latitude": -6.1754,
+            "longitude": 106.8272,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 1,
+            "time_utc": "2026-10-29T06:08:07.201426+00:00",
+            "elapsed_s": 30.0,
+            "latitude": -6.173264,
+            "longitude": 106.828857,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 2,
+            "time_utc": "2026-10-29T06:08:37.201426+00:00",
+            "elapsed_s": 60.0,
+            "latitude": -6.171127,
+            "longitude": 106.830515,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 3,
+            "time_utc": "2026-10-29T06:09:07.201426+00:00",
+            "elapsed_s": 90.0,
+            "latitude": -6.168991,
+            "longitude": 106.832172,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 4,
+            "time_utc": "2026-10-29T06:09:37.201426+00:00",
+            "elapsed_s": 120.0,
+            "latitude": -6.166855,
+            "longitude": 106.833829,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 5,
+            "time_utc": "2026-10-29T06:10:07.201426+00:00",
+            "elapsed_s": 150.0,
+            "latitude": -6.164718,
+            "longitude": 106.835487,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 6,
+            "time_utc": "2026-10-29T06:10:17.558226+00:00",
+            "elapsed_s": 160.36,
+            "latitude": -6.163981,
+            "longitude": 106.836059,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 7,
+            "time_utc": "2026-10-29T06:10:47.558226+00:00",
+            "elapsed_s": 190.36,
+            "latitude": -6.163236,
+            "longitude": 106.838667,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 8,
+            "time_utc": "2026-10-29T06:11:17.558226+00:00",
+            "elapsed_s": 220.36,
+            "latitude": -6.162491,
+            "longitude": 106.841275,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 9,
+            "time_utc": "2026-10-29T06:11:47.558226+00:00",
+            "elapsed_s": 250.36,
+            "latitude": -6.161747,
+            "longitude": 106.843883,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 10,
+            "time_utc": "2026-10-29T06:12:17.558226+00:00",
+            "elapsed_s": 280.36,
+            "latitude": -6.161002,
+            "longitude": 106.846492,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 11,
+            "time_utc": "2026-10-29T06:12:47.558226+00:00",
+            "elapsed_s": 310.36,
+            "latitude": -6.160257,
+            "longitude": 106.8491,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 12,
+            "time_utc": "2026-10-29T06:12:57.912993+00:00",
+            "elapsed_s": 320.71,
+            "latitude": -6.16,
+            "longitude": 106.85,
+            "altitude_m": 150.0
+          }
+        ]
+      }
+    },
+    {
+      "route_id": "LEFT_1000_M",
+      "side": "left",
+      "offset_m": 1000.0,
+      "bend_point": [
+        -6.160261,
+        106.833517
+      ],
+      "distance_m": 3644.94,
+      "duration_s": 364.49,
+      "extra_distance_m": 597.71,
+      "extra_duration_s": 59.77,
+      "evaluation_status": "NOT_EVALUATED",
+      "flight_plan": {
+        "mission": {
+          "route_id": "LEFT_1000_M",
+          "start": [
+            -6.1754,
+            106.8272
+          ],
+          "destination": [
+            -6.16,
+            106.85
+          ],
+          "control_points": [
+            [
+              -6.1754,
+              106.8272
+            ],
+            [
+              -6.160261085294913,
+              106.83351719822258
+            ],
+            [
+              -6.16,
+              106.85
+            ]
+          ],
+          "altitude_m": 150.0,
+          "speed_mps": 10.0,
+          "time_step_s": 30.0,
+          "distance_m": 3644.94,
+          "duration_s": 364.49,
+          "start_time_utc": "2026-10-29T06:07:37.201426+00:00"
+        },
+        "waypoints": [
+          {
+            "step": 0,
+            "time_utc": "2026-10-29T06:07:37.201426+00:00",
+            "elapsed_s": 0.0,
+            "latitude": -6.1754,
+            "longitude": 106.8272,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 1,
+            "time_utc": "2026-10-29T06:08:07.201426+00:00",
+            "elapsed_s": 30.0,
+            "latitude": -6.172908,
+            "longitude": 106.82824,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 2,
+            "time_utc": "2026-10-29T06:08:37.201426+00:00",
+            "elapsed_s": 60.0,
+            "latitude": -6.170416,
+            "longitude": 106.82928,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 3,
+            "time_utc": "2026-10-29T06:09:07.201426+00:00",
+            "elapsed_s": 90.0,
+            "latitude": -6.167924,
+            "longitude": 106.83032,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 4,
+            "time_utc": "2026-10-29T06:09:37.201426+00:00",
+            "elapsed_s": 120.0,
+            "latitude": -6.165432,
+            "longitude": 106.83136,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 5,
+            "time_utc": "2026-10-29T06:10:07.201426+00:00",
+            "elapsed_s": 150.0,
+            "latitude": -6.16294,
+            "longitude": 106.832399,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 6,
+            "time_utc": "2026-10-29T06:10:37.201426+00:00",
+            "elapsed_s": 180.0,
+            "latitude": -6.160448,
+            "longitude": 106.833439,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 7,
+            "time_utc": "2026-10-29T06:10:39.450237+00:00",
+            "elapsed_s": 182.25,
+            "latitude": -6.160261,
+            "longitude": 106.833517,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 8,
+            "time_utc": "2026-10-29T06:11:09.450237+00:00",
+            "elapsed_s": 212.25,
+            "latitude": -6.160218,
+            "longitude": 106.83623,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 9,
+            "time_utc": "2026-10-29T06:11:39.450237+00:00",
+            "elapsed_s": 242.25,
+            "latitude": -6.160175,
+            "longitude": 106.838944,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 10,
+            "time_utc": "2026-10-29T06:12:09.450237+00:00",
+            "elapsed_s": 272.25,
+            "latitude": -6.160132,
+            "longitude": 106.841657,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 11,
+            "time_utc": "2026-10-29T06:12:39.450237+00:00",
+            "elapsed_s": 302.25,
+            "latitude": -6.160089,
+            "longitude": 106.84437,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 12,
+            "time_utc": "2026-10-29T06:13:09.450237+00:00",
+            "elapsed_s": 332.25,
+            "latitude": -6.160046,
+            "longitude": 106.847084,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 13,
+            "time_utc": "2026-10-29T06:13:39.450237+00:00",
+            "elapsed_s": 362.25,
+            "latitude": -6.160003,
+            "longitude": 106.849797,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 14,
+            "time_utc": "2026-10-29T06:13:41.695471+00:00",
+            "elapsed_s": 364.49,
+            "latitude": -6.16,
+            "longitude": 106.85,
+            "altitude_m": 150.0
+          }
+        ]
+      }
+    },
+    {
+      "route_id": "LEFT_1500_M",
+      "side": "left",
+      "offset_m": 1500.0,
+      "bend_point": [
+        -6.156542,
+        106.830976
+      ],
+      "distance_m": 4276.17,
+      "duration_s": 427.62,
+      "extra_distance_m": 1228.94,
+      "extra_duration_s": 122.9,
+      "evaluation_status": "NOT_EVALUATED",
+      "flight_plan": {
+        "mission": {
+          "route_id": "LEFT_1500_M",
+          "start": [
+            -6.1754,
+            106.8272
+          ],
+          "destination": [
+            -6.16,
+            106.85
+          ],
+          "control_points": [
+            [
+              -6.1754,
+              106.8272
+            ],
+            [
+              -6.156541549326455,
+              106.83097576798718
+            ],
+            [
+              -6.16,
+              106.85
+            ]
+          ],
+          "altitude_m": 150.0,
+          "speed_mps": 10.0,
+          "time_step_s": 30.0,
+          "distance_m": 4276.17,
+          "duration_s": 427.62,
+          "start_time_utc": "2026-10-29T06:07:37.201426+00:00"
+        },
+        "waypoints": [
+          {
+            "step": 0,
+            "time_utc": "2026-10-29T06:07:37.201426+00:00",
+            "elapsed_s": 0.0,
+            "latitude": -6.1754,
+            "longitude": 106.8272,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 1,
+            "time_utc": "2026-10-29T06:08:07.201426+00:00",
+            "elapsed_s": 30.0,
+            "latitude": -6.172754,
+            "longitude": 106.82773,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 2,
+            "time_utc": "2026-10-29T06:08:37.201426+00:00",
+            "elapsed_s": 60.0,
+            "latitude": -6.170108,
+            "longitude": 106.82826,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 3,
+            "time_utc": "2026-10-29T06:09:07.201426+00:00",
+            "elapsed_s": 90.0,
+            "latitude": -6.167462,
+            "longitude": 106.828789,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 4,
+            "time_utc": "2026-10-29T06:09:37.201426+00:00",
+            "elapsed_s": 120.0,
+            "latitude": -6.164816,
+            "longitude": 106.829319,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 5,
+            "time_utc": "2026-10-29T06:10:07.201426+00:00",
+            "elapsed_s": 150.0,
+            "latitude": -6.16217,
+            "longitude": 106.829849,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 6,
+            "time_utc": "2026-10-29T06:10:37.201426+00:00",
+            "elapsed_s": 180.0,
+            "latitude": -6.159524,
+            "longitude": 106.830379,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 7,
+            "time_utc": "2026-10-29T06:11:07.201426+00:00",
+            "elapsed_s": 210.0,
+            "latitude": -6.156878,
+            "longitude": 106.830908,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 8,
+            "time_utc": "2026-10-29T06:11:11.011984+00:00",
+            "elapsed_s": 213.81,
+            "latitude": -6.156542,
+            "longitude": 106.830976,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 9,
+            "time_utc": "2026-10-29T06:11:41.011984+00:00",
+            "elapsed_s": 243.81,
+            "latitude": -6.157027,
+            "longitude": 106.833645,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 10,
+            "time_utc": "2026-10-29T06:12:11.011984+00:00",
+            "elapsed_s": 273.81,
+            "latitude": -6.157512,
+            "longitude": 106.836314,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 11,
+            "time_utc": "2026-10-29T06:12:41.011984+00:00",
+            "elapsed_s": 303.81,
+            "latitude": -6.157997,
+            "longitude": 106.838984,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 12,
+            "time_utc": "2026-10-29T06:13:11.011984+00:00",
+            "elapsed_s": 333.81,
+            "latitude": -6.158483,
+            "longitude": 106.841653,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 13,
+            "time_utc": "2026-10-29T06:13:41.011984+00:00",
+            "elapsed_s": 363.81,
+            "latitude": -6.158968,
+            "longitude": 106.844323,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 14,
+            "time_utc": "2026-10-29T06:14:11.011984+00:00",
+            "elapsed_s": 393.81,
+            "latitude": -6.159453,
+            "longitude": 106.846992,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 15,
+            "time_utc": "2026-10-29T06:14:41.011984+00:00",
+            "elapsed_s": 423.81,
+            "latitude": -6.159938,
+            "longitude": 106.849661,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 16,
+            "time_utc": "2026-10-29T06:14:44.817969+00:00",
+            "elapsed_s": 427.62,
+            "latitude": -6.16,
+            "longitude": 106.85,
+            "altitude_m": 150.0
+          }
+        ]
+      }
+    },
+    {
+      "route_id": "RIGHT_500_M",
+      "side": "right",
+      "offset_m": 500.0,
+      "bend_point": [
+        -6.17142,
+        106.841142
+      ],
+      "distance_m": 3207.12,
+      "duration_s": 320.71,
+      "extra_distance_m": 159.89,
+      "extra_duration_s": 15.99,
+      "evaluation_status": "NOT_EVALUATED",
+      "flight_plan": {
+        "mission": {
+          "route_id": "RIGHT_500_M",
+          "start": [
+            -6.1754,
+            106.8272
+          ],
+          "destination": [
+            -6.16,
+            106.85
+          ],
+          "control_points": [
+            [
+              -6.1754,
+              106.8272
+            ],
+            [
+              -6.171419621007186,
+              106.8411417027063
+            ],
+            [
+              -6.16,
+              106.85
+            ]
+          ],
+          "altitude_m": 150.0,
+          "speed_mps": 10.0,
+          "time_step_s": 30.0,
+          "distance_m": 3207.12,
+          "duration_s": 320.71,
+          "start_time_utc": "2026-10-29T06:07:37.201426+00:00"
+        },
+        "waypoints": [
+          {
+            "step": 0,
+            "time_utc": "2026-10-29T06:07:37.201426+00:00",
+            "elapsed_s": 0.0,
+            "latitude": -6.1754,
+            "longitude": 106.8272,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 1,
+            "time_utc": "2026-10-29T06:08:07.201426+00:00",
+            "elapsed_s": 30.0,
+            "latitude": -6.174655,
+            "longitude": 106.829808,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 2,
+            "time_utc": "2026-10-29T06:08:37.201426+00:00",
+            "elapsed_s": 60.0,
+            "latitude": -6.173911,
+            "longitude": 106.832417,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 3,
+            "time_utc": "2026-10-29T06:09:07.201426+00:00",
+            "elapsed_s": 90.0,
+            "latitude": -6.173166,
+            "longitude": 106.835025,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 4,
+            "time_utc": "2026-10-29T06:09:37.201426+00:00",
+            "elapsed_s": 120.0,
+            "latitude": -6.172421,
+            "longitude": 106.837633,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 5,
+            "time_utc": "2026-10-29T06:10:07.201426+00:00",
+            "elapsed_s": 150.0,
+            "latitude": -6.171677,
+            "longitude": 106.840241,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 6,
+            "time_utc": "2026-10-29T06:10:17.556193+00:00",
+            "elapsed_s": 160.35,
+            "latitude": -6.17142,
+            "longitude": 106.841142,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 7,
+            "time_utc": "2026-10-29T06:10:47.556193+00:00",
+            "elapsed_s": 190.35,
+            "latitude": -6.169283,
+            "longitude": 106.842799,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 8,
+            "time_utc": "2026-10-29T06:11:17.556193+00:00",
+            "elapsed_s": 220.35,
+            "latitude": -6.167147,
+            "longitude": 106.844456,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 9,
+            "time_utc": "2026-10-29T06:11:47.556193+00:00",
+            "elapsed_s": 250.35,
+            "latitude": -6.16501,
+            "longitude": 106.846113,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 10,
+            "time_utc": "2026-10-29T06:12:17.556193+00:00",
+            "elapsed_s": 280.35,
+            "latitude": -6.162874,
+            "longitude": 106.847771,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 11,
+            "time_utc": "2026-10-29T06:12:47.556193+00:00",
+            "elapsed_s": 310.35,
+            "latitude": -6.160738,
+            "longitude": 106.849428,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 12,
+            "time_utc": "2026-10-29T06:12:57.912993+00:00",
+            "elapsed_s": 320.71,
+            "latitude": -6.16,
+            "longitude": 106.85,
+            "altitude_m": 150.0
+          }
+        ]
+      }
+    },
+    {
+      "route_id": "RIGHT_1000_M",
+      "side": "right",
+      "offset_m": 1000.0,
+      "bend_point": [
+        -6.175139,
+        106.843683
+      ],
+      "distance_m": 3644.94,
+      "duration_s": 364.49,
+      "extra_distance_m": 597.71,
+      "extra_duration_s": 59.77,
+      "evaluation_status": "NOT_EVALUATED",
+      "flight_plan": {
+        "mission": {
+          "route_id": "RIGHT_1000_M",
+          "start": [
+            -6.1754,
+            106.8272
+          ],
+          "destination": [
+            -6.16,
+            106.85
+          ],
+          "control_points": [
+            [
+              -6.1754,
+              106.8272
+            ],
+            [
+              -6.175139108821953,
+              106.84368327553352
+            ],
+            [
+              -6.16,
+              106.85
+            ]
+          ],
+          "altitude_m": 150.0,
+          "speed_mps": 10.0,
+          "time_step_s": 30.0,
+          "distance_m": 3644.94,
+          "duration_s": 364.49,
+          "start_time_utc": "2026-10-29T06:07:37.201426+00:00"
+        },
+        "waypoints": [
+          {
+            "step": 0,
+            "time_utc": "2026-10-29T06:07:37.201426+00:00",
+            "elapsed_s": 0.0,
+            "latitude": -6.1754,
+            "longitude": 106.8272,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 1,
+            "time_utc": "2026-10-29T06:08:07.201426+00:00",
+            "elapsed_s": 30.0,
+            "latitude": -6.175357,
+            "longitude": 106.829913,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 2,
+            "time_utc": "2026-10-29T06:08:37.201426+00:00",
+            "elapsed_s": 60.0,
+            "latitude": -6.175314,
+            "longitude": 106.832627,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 3,
+            "time_utc": "2026-10-29T06:09:07.201426+00:00",
+            "elapsed_s": 90.0,
+            "latitude": -6.175271,
+            "longitude": 106.83534,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 4,
+            "time_utc": "2026-10-29T06:09:37.201426+00:00",
+            "elapsed_s": 120.0,
+            "latitude": -6.175228,
+            "longitude": 106.838053,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 5,
+            "time_utc": "2026-10-29T06:10:07.201426+00:00",
+            "elapsed_s": 150.0,
+            "latitude": -6.175185,
+            "longitude": 106.840767,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 6,
+            "time_utc": "2026-10-29T06:10:37.201426+00:00",
+            "elapsed_s": 180.0,
+            "latitude": -6.175142,
+            "longitude": 106.84348,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 7,
+            "time_utc": "2026-10-29T06:10:39.446660+00:00",
+            "elapsed_s": 182.25,
+            "latitude": -6.175139,
+            "longitude": 106.843683,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 8,
+            "time_utc": "2026-10-29T06:11:09.446660+00:00",
+            "elapsed_s": 212.25,
+            "latitude": -6.172647,
+            "longitude": 106.844723,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 9,
+            "time_utc": "2026-10-29T06:11:39.446660+00:00",
+            "elapsed_s": 242.25,
+            "latitude": -6.170155,
+            "longitude": 106.845763,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 10,
+            "time_utc": "2026-10-29T06:12:09.446660+00:00",
+            "elapsed_s": 272.25,
+            "latitude": -6.167663,
+            "longitude": 106.846803,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 11,
+            "time_utc": "2026-10-29T06:12:39.446660+00:00",
+            "elapsed_s": 302.25,
+            "latitude": -6.165171,
+            "longitude": 106.847843,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 12,
+            "time_utc": "2026-10-29T06:13:09.446660+00:00",
+            "elapsed_s": 332.25,
+            "latitude": -6.162679,
+            "longitude": 106.848882,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 13,
+            "time_utc": "2026-10-29T06:13:39.446660+00:00",
+            "elapsed_s": 362.25,
+            "latitude": -6.160187,
+            "longitude": 106.849922,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 14,
+            "time_utc": "2026-10-29T06:13:41.695471+00:00",
+            "elapsed_s": 364.49,
+            "latitude": -6.16,
+            "longitude": 106.85,
+            "altitude_m": 150.0
+          }
+        ]
+      }
+    },
+    {
+      "route_id": "RIGHT_1500_M",
+      "side": "right",
+      "offset_m": 1500.0,
+      "bend_point": [
+        -6.178859,
+        106.846225
+      ],
+      "distance_m": 4276.17,
+      "duration_s": 427.62,
+      "extra_distance_m": 1228.94,
+      "extra_duration_s": 122.9,
+      "evaluation_status": "NOT_EVALUATED",
+      "flight_plan": {
+        "mission": {
+          "route_id": "RIGHT_1500_M",
+          "start": [
+            -6.1754,
+            106.8272
+          ],
+          "destination": [
+            -6.16,
+            106.85
+          ],
+          "control_points": [
+            [
+              -6.1754,
+              106.8272
+            ],
+            [
+              -6.178858584579579,
+              106.84622488406376
+            ],
+            [
+              -6.16,
+              106.85
+            ]
+          ],
+          "altitude_m": 150.0,
+          "speed_mps": 10.0,
+          "time_step_s": 30.0,
+          "distance_m": 4276.17,
+          "duration_s": 427.62,
+          "start_time_utc": "2026-10-29T06:07:37.201426+00:00"
+        },
+        "waypoints": [
+          {
+            "step": 0,
+            "time_utc": "2026-10-29T06:07:37.201426+00:00",
+            "elapsed_s": 0.0,
+            "latitude": -6.1754,
+            "longitude": 106.8272,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 1,
+            "time_utc": "2026-10-29T06:08:07.201426+00:00",
+            "elapsed_s": 30.0,
+            "latitude": -6.175885,
+            "longitude": 106.829869,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 2,
+            "time_utc": "2026-10-29T06:08:37.201426+00:00",
+            "elapsed_s": 60.0,
+            "latitude": -6.176371,
+            "longitude": 106.832539,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 3,
+            "time_utc": "2026-10-29T06:09:07.201426+00:00",
+            "elapsed_s": 90.0,
+            "latitude": -6.176856,
+            "longitude": 106.835208,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 4,
+            "time_utc": "2026-10-29T06:09:37.201426+00:00",
+            "elapsed_s": 120.0,
+            "latitude": -6.177341,
+            "longitude": 106.837878,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 5,
+            "time_utc": "2026-10-29T06:10:07.201426+00:00",
+            "elapsed_s": 150.0,
+            "latitude": -6.177827,
+            "longitude": 106.840547,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 6,
+            "time_utc": "2026-10-29T06:10:37.201426+00:00",
+            "elapsed_s": 180.0,
+            "latitude": -6.178312,
+            "longitude": 106.843217,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 7,
+            "time_utc": "2026-10-29T06:11:07.201426+00:00",
+            "elapsed_s": 210.0,
+            "latitude": -6.178797,
+            "longitude": 106.845886,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 8,
+            "time_utc": "2026-10-29T06:11:11.007411+00:00",
+            "elapsed_s": 213.81,
+            "latitude": -6.178859,
+            "longitude": 106.846225,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 9,
+            "time_utc": "2026-10-29T06:11:41.007411+00:00",
+            "elapsed_s": 243.81,
+            "latitude": -6.176213,
+            "longitude": 106.846755,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 10,
+            "time_utc": "2026-10-29T06:12:11.007411+00:00",
+            "elapsed_s": 273.81,
+            "latitude": -6.173566,
+            "longitude": 106.847284,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 11,
+            "time_utc": "2026-10-29T06:12:41.007411+00:00",
+            "elapsed_s": 303.81,
+            "latitude": -6.17092,
+            "longitude": 106.847814,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 12,
+            "time_utc": "2026-10-29T06:13:11.007411+00:00",
+            "elapsed_s": 333.81,
+            "latitude": -6.168274,
+            "longitude": 106.848344,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 13,
+            "time_utc": "2026-10-29T06:13:41.007411+00:00",
+            "elapsed_s": 363.81,
+            "latitude": -6.165628,
+            "longitude": 106.848873,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 14,
+            "time_utc": "2026-10-29T06:14:11.007411+00:00",
+            "elapsed_s": 393.81,
+            "latitude": -6.162982,
+            "longitude": 106.849403,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 15,
+            "time_utc": "2026-10-29T06:14:41.007411+00:00",
+            "elapsed_s": 423.81,
+            "latitude": -6.160336,
+            "longitude": 106.849933,
+            "altitude_m": 150.0
+          },
+          {
+            "step": 16,
+            "time_utc": "2026-10-29T06:14:44.817969+00:00",
+            "elapsed_s": 427.62,
+            "latitude": -6.16,
+            "longitude": 106.85,
+            "altitude_m": 150.0
+          }
+        ]
+      }
+    }
+  ],
+  "candidate_count": 6,
+  "bend_fraction": 0.5,
+  "departure_time_utc": "2026-10-29T06:07:37.201426+00:00"
+}

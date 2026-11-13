@@ -1,0 +1,61 @@
+{
+    "generated_at_utc": "2026-10-27T09:47:21.811581+00:00",
+    "opensky_snapshot_time": 1793094438,
+    "drone": {
+        "latitude": -6.1754,
+        "longitude": 106.8272,
+        "altitude_m": 150.0
+    },
+    "monitoring": {
+        "radius_km": 70.0,
+        "max_altitude_m": 3300.0,
+        "aircraft_received": 5,
+        "aircraft_in_radius_and_altitude": 5,
+        "conflicts_detected": 0
+    },
+    "nearest_aircraft": [
+        {
+            "callsign": "CTV662",
+            "horizontal_m": 15740.38,
+            "vertical_m": 3126.6,
+            "conflict": false,
+            "aircraft_altitude_m": 3276.6
+        },
+        {
+            "callsign": "PKSNH",
+            "horizontal_m": 23195.62,
+            "vertical_m": 2936.1,
+            "conflict": false,
+            "aircraft_altitude_m": 3086.1
+        },
+        {
+            "callsign": "SJV995",
+            "horizontal_m": 24091.45,
+            "vertical_m": 2364.6,
+            "conflict": false,
+            "aircraft_altitude_m": 2514.6
+        },
+        {
+            "callsign": "SIA962",
+            "horizontal_m": 28700.11,
+            "vertical_m": 352.92,
+            "conflict": false,
+            "aircraft_altitude_m": 502.92
+        },
+        {
+            "callsign": "BTK6212",
+            "horizontal_m": 32748.28,
+            "vertical_m": 2105.52,
+            "conflict": false,
+            "aircraft_altitude_m": 2255.52
+        }
+    ],
+    "conflicts": [],
+    "limitations": [
+        "Snapshot-based proximity detection only",
+        "Aircraft altitude is barometric",
+        "Vertical separation is indicative only",
+        "OpenSky coverage may be incomplete",
+        "Not suitable for operational flight safety decisions"
+    ]
+}

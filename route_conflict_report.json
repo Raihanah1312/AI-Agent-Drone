@@ -1,0 +1,77 @@
+{
+    "generated_at_utc": "2026-10-27T09:52:29.094027+00:00",
+    "opensky_snapshot_time": 1793094745,
+    "mission": {
+        "start": [
+            -6.1754,
+            106.8272
+        ],
+        "destination": [
+            -6.16,
+            106.85
+        ],
+        "altitude_m": 150.0,
+        "speed_mps": 10.0,
+        "time_step_s": 30,
+        "distance_m": 3047.23,
+        "duration_s": 304.72,
+        "start_time_utc": "2026-10-27T09:52:27.264035+00:00"
+    },
+    "waypoints_analyzed": 12,
+    "aircraft_received": 7,
+    "aircraft_with_valid_prediction_data": 5,
+    "potential_conflict_events": 0,
+    "conflicts": [],
+    "closest_approaches": [
+        {
+            "callsign": "PKSNH",
+            "waypoint_step": 6,
+            "time_utc": "2026-10-27T09:55:27.264035+00:00",
+            "horizontal_m": 1583.04,
+            "vertical_m": 2905.62,
+            "conflict": false
+        },
+        {
+            "callsign": "CTV174",
+            "waypoint_step": 0,
+            "time_utc": "2026-10-27T09:52:27.264035+00:00",
+            "horizontal_m": 13254.13,
+            "vertical_m": 2958.96,
+            "conflict": false
+        },
+        {
+            "callsign": "BTK7150",
+            "waypoint_step": 9,
+            "time_utc": "2026-10-27T09:56:57.264035+00:00",
+            "horizontal_m": 15537.3,
+            "vertical_m": 467.22,
+            "conflict": false
+        },
+        {
+            "callsign": "GIA320",
+            "waypoint_step": 0,
+            "time_utc": "2026-10-27T09:52:27.264035+00:00",
+            "horizontal_m": 21367.43,
+            "vertical_m": 1191.12,
+            "conflict": false
+        },
+        {
+            "callsign": "LNI797",
+            "waypoint_step": 0,
+            "time_utc": "2026-10-27T09:52:27.264035+00:00",
+            "horizontal_m": 23830.58,
+            "vertical_m": 3118.98,
+            "conflict": false
+        }
+    ],
+    "assumptions": [
+        "Aircraft speed and heading are constant",
+        "Aircraft altitude is held constant",
+        "Drone follows a straight interpolated route",
+        "Drone speed and altitude are constant",
+        "Only discrete waypoints are evaluated",
+        "Aircraft barometric altitude is compared with simulated drone altitude",
+        "OpenSky coverage and prediction accuracy are not guaranteed",
+        "For simulation and research only"
+    ]
+}

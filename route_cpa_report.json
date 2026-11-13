@@ -1,0 +1,245 @@
+{
+    "generated_at_utc": "2026-10-30T05:12:32.162593+00:00",
+    "opensky_snapshot_time": 1793337147,
+    "mission": {
+        "start": [
+            -6.1754,
+            106.8272
+        ],
+        "destination": [
+            -6.16,
+            106.85
+        ],
+        "altitude_m": 150.0,
+        "speed_mps": 10.0,
+        "time_step_s": 30.0,
+        "distance_m": 3047.23,
+        "duration_s": 304.72,
+        "start_time_utc": "2026-10-30T05:12:30.573521+00:00"
+    },
+    "aircraft_received": 12,
+    "aircraft_analyzed": 6,
+    "aircraft_excluded": 2,
+    "aircraft_unanalyzable": 4,
+    "aircraft_skipped": 6,
+    "potential_conflicts": 0,
+    "analysis_status": "INCOMPLETE_ANALYSIS",
+    "data_quality_status": "INCOMPLETE_ANALYSIS",
+    "classification": {
+        "analyzed": 6,
+        "excluded": [
+            {
+                "index": 2,
+                "callsign": "CTV976",
+                "reason": "OUTSIDE_ALTITUDE_FILTER"
+            },
+            {
+                "index": 7,
+                "callsign": "GIA408",
+                "reason": "OUTSIDE_ALTITUDE_FILTER"
+            }
+        ],
+        "unanalyzable": [
+            {
+                "index": 0,
+                "callsign": "GIA225",
+                "reason": "STALE_OR_INVALID_POSITION"
+            },
+            {
+                "index": 4,
+                "callsign": "BTK7010",
+                "reason": "STALE_OR_INVALID_POSITION"
+            },
+            {
+                "index": 9,
+                "callsign": "CSN3037",
+                "reason": "STALE_OR_INVALID_POSITION"
+            },
+            {
+                "index": 11,
+                "callsign": "TNU152",
+                "reason": "STALE_OR_INVALID_POSITION"
+            }
+        ]
+    },
+    "coverage": {
+        "total_waypoints": 12,
+        "aircraft_with_full_coverage": 6,
+        "aircraft_with_incomplete_coverage": 0
+    },
+    "closest_approaches": [
+        {
+            "callsign": "PAS989",
+            "index": 5,
+            "time_to_cpa_s": 137.56,
+            "horizontal_cpa_m": 10202.93,
+            "vertical_separation_m": 764.4,
+            "potential_conflict": false,
+            "samples_evaluated": 12,
+            "total_waypoints": 12,
+            "evaluated_steps": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "missing_steps": [],
+            "full_mission_coverage": true
+        },
+        {
+            "callsign": "GIA665",
+            "index": 1,
+            "time_to_cpa_s": 182.58,
+            "horizontal_cpa_m": 10645.87,
+            "vertical_separation_m": 1511.16,
+            "potential_conflict": false,
+            "samples_evaluated": 12,
+            "total_waypoints": 12,
+            "evaluated_steps": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "missing_steps": [],
+            "full_mission_coverage": true
+        },
+        {
+            "callsign": "T710MAX",
+            "index": 8,
+            "time_to_cpa_s": 0.0,
+            "horizontal_cpa_m": 13164.71,
+            "vertical_separation_m": 223.38,
+            "potential_conflict": false,
+            "samples_evaluated": 12,
+            "total_waypoints": 12,
+            "evaluated_steps": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "missing_steps": [],
+            "full_mission_coverage": true
+        },
+        {
+            "callsign": "BTK6567",
+            "index": 3,
+            "time_to_cpa_s": 239.76,
+            "horizontal_cpa_m": 22474.71,
+            "vertical_separation_m": 1953.12,
+            "potential_conflict": false,
+            "samples_evaluated": 12,
+            "total_waypoints": 12,
+            "evaluated_steps": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "missing_steps": [],
+            "full_mission_coverage": true
+        },
+        {
+            "callsign": "PAS108",
+            "index": 6,
+            "time_to_cpa_s": 0.0,
+            "horizontal_cpa_m": 29165.5,
+            "vertical_separation_m": 459.6,
+            "potential_conflict": false,
+            "samples_evaluated": 12,
+            "total_waypoints": 12,
+            "evaluated_steps": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "missing_steps": [],
+            "full_mission_coverage": true
+        },
+        {
+            "callsign": "GIA512",
+            "index": 10,
+            "time_to_cpa_s": 136.48,
+            "horizontal_cpa_m": 33112.47,
+            "vertical_separation_m": 1960.74,
+            "potential_conflict": false,
+            "samples_evaluated": 12,
+            "total_waypoints": 12,
+            "evaluated_steps": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "missing_steps": [],
+            "full_mission_coverage": true
+        }
+    ],
+    "conflicts": [],
+    "thresholds": {
+        "horizontal_m": 10000.0,
+        "vertical_m": 300.0,
+        "max_prediction_s": 600.0
+    },
+    "limitations": [
+        "Constant-speed and constant-heading prediction",
+        "Aircraft altitude assumed constant",
+        "Horizontal CPA estimated by linear interpolation",
+        "Only consecutive valid waypoint intervals are assessed",
+        "Aircraft exclusion follows validator's research altitude filter",
+        "Aircraft barometric altitude and drone altitude may use different references",
+        "OpenSky coverage may be incomplete",
+        "Full waypoint coverage does not imply prediction accuracy",
+        "Research simulation only; not for operational flight decisions"
+    ]
+}
